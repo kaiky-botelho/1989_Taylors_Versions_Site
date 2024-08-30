@@ -1,0 +1,120 @@
+@font-face {
+    font-family: tv;
+    src: url(../fonts/1989.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+}
+
+header h2 {
+    text-align: center;
+    font-family: tv;
+    font-weight: 900;
+    color: #a0b3c3;
+    font-size: 55px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: tv;
+    font-size: 20px;
+    font-weight: 900;
+    display: block;
+    color: #a0b3c3;
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #cfcfcf;
+}
+
+.background-container {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.sobre-containeir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.sobre-containeir h2 {
+    font-family: tv;
+    color: #a0b3c3;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.foto-polaroid,
+.texto-sobre {
+    margin: 20px;
+}
+
+.foto-polaroid img {
+    width: 600px;
+    height: auto;
+}
+
+.texto-sobre {
+    font-family: tv;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: justify;
+    max-width: 600px;/
+}
+
+.polaroids-container {
+    display: flex;
+    justify-content: center;
+}
+
+swiper-container {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    border-radius: 10%;
+}
+
+swiper-slide {
+background-color: #D5D0C4;
+}
+
+swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
