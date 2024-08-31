@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: tv;
 }
 
 body {
@@ -19,7 +20,6 @@ header {
 
 header h2 {
     text-align: center;
-    font-family: tv;
     font-weight: 900;
     color: #a0b3c3;
     font-size: 55px;
@@ -42,7 +42,6 @@ li {
 }
 
 li a {
-    font-family: tv;
     font-size: 20px;
     font-weight: 900;
     display: block;
@@ -61,6 +60,10 @@ li a:hover {
     text-align: center;
 }
 
+.background-container img {
+    width: 80vw;
+}
+
 .sobre-containeir {
     display: flex;
     justify-content: center;
@@ -70,7 +73,6 @@ li a:hover {
 }
 
 .sobre-containeir h2 {
-    font-family: tv;
     color: #a0b3c3;
     font-weight: 900;
     font-size: 100px;
@@ -90,11 +92,10 @@ li a:hover {
 }
 
 .texto-sobre {
-    font-family: tv;
     font-weight: 900;
     font-size: 24px;
     text-align: justify;
-    max-width: 600px;/
+    max-width: 600px;
 }
 
 .polaroids-container {
@@ -103,18 +104,31 @@ li a:hover {
 }
 
 swiper-container {
-    width: 80%;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 350px;
     margin: 20px auto;
-    border-radius: 10%;
+    border-radius: 30px;
 }
 
 swiper-slide {
-background-color: #D5D0C4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8d8;
+    text-align: center;
+    padding: 10px;
 }
 
 swiper-slide img {
-    display: block;
     object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
+swiper-slide p {
+    color: #83a1b9;
+    margin-top: 10px;
+}
