@@ -26,22 +26,15 @@ document.getElementById("vinil-tangerine").addEventListener("click",function(){
 
 //Mostrar items no mobile
 
-document.addEventListener('DOMContentLoaded', () => {
-    const menuIcon = document.querySelector('.mobile-menu-icon img');
-    const mobileMenu = document.querySelector('.mobile-menu');
+function menuShow() {
+    var mobileMenu = document.querySelector('.mobile-menu');
+    if (mobileMenu.style.display === 'block') {
+        mobileMenu.style.display = 'none';
+    } else {
+        mobileMenu.style.display = 'block';
+    }
+}
 
-    // Abrir e fechar o menu ao clicar no ícone
-    menuIcon.addEventListener('click', () => {
-        mobileMenu.classList.toggle('open');
-    });
-
-    // Fechar o menu quando clicar fora dele
-    document.addEventListener('click', (event) => {
-        if (!mobileMenu.contains(event.target) && !menuIcon.contains(event.target)) {
-            mobileMenu.classList.remove('open');
-        }
-    });
-});
 
 
 
