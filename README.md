@@ -16,4 +16,4 @@ Bem-vindo ao repositório da landing page desenvolvida em homenagem ao álbum *1
 
 🎧 Sobre o Projeto
 
-Este projeto foi criado para destacar o álbum *1989 (Taylor's Version)*, permitindo aos fãs explorar as faixas, visualizar as edições em vinil e apreciar as imagens em um layout visualmente atraente. A página foi pensada para ser simples, mas eficaz, destacando a importância visual e sonora do álbum.
+Este projeto foi criado para destacar o álbum *1989 (Taylor's Version)*, permitindo aos fãs explorar as faixas, visualizar as edições em vinil e apreciar as imagens em um layout visualmente atraente. A página foi pensada para ser simples, mas eficaz, destacando a importância visual do álbum.
