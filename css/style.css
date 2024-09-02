@@ -365,10 +365,55 @@ footer {
         font-size: 10px;
     }
 
-    #app{
-        font-size: 20px;
+    .vinil-container {
+        flex-direction: column;
+        align-items: center;
     }
 
+    .vinil-edicoes {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .vinil-edicoes img {
+        width: 80px;
+    }
+
+    .vinil-edicoes p {
+        font-size: 14px;
+    }
+
+    .tracklist-container {
+        padding: 10px;
+    }
+
+    .tracklist {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tracklist img {
+        width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .tracklist p {
+        font-size: 14px;
+        margin: 10px 0;
+        padding: 0 10px;
+    }
+
+    p[style] {
+        margin-left: 0;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    
     }
 
 
