@@ -12,9 +12,26 @@
 
 <body>
     <header>
-        <h2>1989 Taylor's Versions</h2>
-    </header>
-    <nav>
+        <nav>
+            <ul>
+            <h2>1989 Taylor's Versions</h2>
+            <li><a href="">Home</a></li>
+            <li><a href="">Debut</a></li>
+            <li><a href="">Fearless</a></li>
+            <li><a href="">Speak Now</a></li>
+            <li><a href="">Red</a></li>
+            <li><a href="">reputation</a></li>
+            <li><a href="">lover</a></li>
+            <li><a href="">folklore</a></li>
+            <li><a href="">Evermore</a></li>
+            <li><a href="">Midnight</a></li>
+            <li><a href="">TTPD</a></li>
+        </ul>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow"><img src="img/barra-de-menu.png" alt="" class="icon"></button>
+    </nav>
+
+    <div class="mobile-menu">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Debut</a></li>
@@ -28,7 +45,8 @@
             <li><a href="">Midnight</a></li>
             <li><a href="">TTPD</a></li>
         </ul>
-    </nav>
+    </div>
+</header>
 
     <div class="background-container">
         <img src="./img/fundo.jpg" alt="Background Image">
@@ -111,7 +129,7 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     </div>
 
-    <h2 style="font-size: 60px; text-align: center; color: #a0b3c3;">Versões</h2>
+    <h2 id="app" style="font-size: 60px; text-align: center; color: #a0b3c3;">Versões</h2>
     <div class="vinil-container">
         <div class="vinil-edicoes">
             <img id="vinil-blue" src="./img/vinil_blue.png" alt="">
@@ -136,7 +154,7 @@
     </div>
 
     <h2 style="color: #a0b3c3; font-size: 65px; text-align: center;">Tracklist</h2>
-    <p style="margin-left: 220px;">Clique numa versão de vinil acima para mudar a imagem.</p>
+    <p style="margin-left: 200px;">Clique em uma versão de vinil acima para mudar a imagem.</p>
     <div class="tracklist-container">
         <div class="tracklist">
             <img id="tracklist-image" src="./img/vinil_blue.png" alt="" style="margin: 20px;">
